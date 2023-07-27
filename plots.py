@@ -39,3 +39,20 @@ st.area_chart(data)
 st.bar_chart(data)
 
 st.image("wall.jpg")
+
+st.audio("file_example_MP3_700KB.mp3")
+st.video("pexels-thirdman-5538262 (1080p).mp4")
+#we can paste the yt link too
+
+st.title("widget")
+if st.button("subscribe"):
+    st.write("like this video")
+name = st.text_input("names")
+st.write(name)
+
+address =st.text_area("enter your address")
+st.write(address)
+
+st.date_input("enter a date")
+st.time_input("enter time")
+st.checkbox("you accept the T & C" value=True)
